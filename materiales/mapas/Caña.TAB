@@ -1,0 +1,37 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  File "caña.accdb"
+  Type ACCESS TABLE "Caña" Charset "WindowsLatin1"
+  Fields 14
+    CODIGO Char (17) ;
+    COD_EMPRESA Char (3) ;
+    UNIDAD Char (2) Index 1 ;
+    LOTE Char (2) ;
+    BLOQUE Char (5) Index 2 ;
+    CAMPO Char (4) ;
+    ÁREA Float ;
+    AREA_GUARD Float ;
+    EST_ACTUAL Char (10) Index 3 ;
+    FECHA Date ;
+    USO_ACTUAL Char (10) ;
+    USO_PROPUE Char (10) ;
+    TENEDOR Char (20) Index 4 ;
+    MUNICIPIO Char (20) ;
+begin_metadata
+"\SNAPTHIN" = ""
+"\SNAPTHIN\EnableSnap" = "FALSE"
+"\SNAPTHIN\Node" = "0"
+"\SNAPTHIN\Vec" = "0"
+"\SNAPTHIN\TolUnit" = "0"
+"\SNAPTHIN\EnableThin" = "FALSE"
+"\SNAPTHIN\Bend" = "0"
+"\SNAPTHIN\Dist" = "0"
+"\SNAPTHIN\ThinUnit" = "0"
+"\SNAPTHIN\EnableArea" = "TRUE"
+"\SNAPTHIN\Area" = "0.27"
+"\SNAPTHIN\AreaUnit" = "29"
+"\IsReadOnly" = "FALSE"
+end_metadata

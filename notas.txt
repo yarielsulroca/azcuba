@@ -1,0 +1,20 @@
+municipio --> cai -> unidad 
+	lote, bloque y campo
+
+roles: administrador, usuario, director (de un cai), investigador, 
+
+director cai () -> reportes e informacion de su cai ( ellos no ven recomendaciones )
+
+usuario -> Tecnico de OT ( el que sube el mapa ) a los cai al que el pertenece,
+tiene feedBack del investigador.un tecnico tiene un solo cai.
+
+Investigador ..Puede ver recomendaciones de los cais asignados que pueden ser mas de 1
+es el que aprueba los mapas.
+
+no coincidencia de un registro... para atras el mapa.
+
+el admin es el que maneja los nomencladores y los usuarios y todas las demas leches.
+
+cuando un investigador, da las recomendaciones, ponerle una alerta a los usuarios de la unidad.
+
+no mas de 5 megas los ficheros.
