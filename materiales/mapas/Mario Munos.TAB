@@ -1,0 +1,26 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  File "mario munos.accdb"
+  Type ACCESS TABLE "Mario_Munos" Charset "WindowsLatin1"
+  Fields 13
+    CODIGO Char (17) ;
+    UEB Char (3) ;
+    UNIDAD Char (2) ;
+    LOTE Char (2) ;
+    BLOQUE Char (4) Index 1 ;
+    CAMPO Char (2) ;
+    AREA_DEC Float ;
+    AREA Float ;
+    AREA_GUARD Float ;
+    ESTADO_ACTUAL Char (10) ;
+    TIPO Char (10) ;
+    TENEDOR Char (40) ;
+    MUNICIPIO Char (30) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "8404ff40-8b2b-4f6e-89ea-d53cc3ce607c"
+end_metadata
