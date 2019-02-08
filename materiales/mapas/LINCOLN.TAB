@@ -1,0 +1,30 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  File "lincoln.accdb"
+  Type ACCESS TABLE "LINCOLN" Charset "WindowsLatin1"
+  Fields 17
+    CODIGO Char (15) Index 1 ;
+    EMPRESA Char (3) ;
+    UNIDAD Char (2) Index 2 ;
+    UNIDAD_P Char (2) Index 3 ;
+    LOTE Char (2) ;
+    LOTE_P Char (2) ;
+    BLOQUE Char (5) Index 4 ;
+    BLOQUE_P Char (4) Index 5 ;
+    CAMPO Char (5) ;
+    CAMPO_P Char (2) ;
+    ÁREA_DEC Float ;
+    AREA Float Index 6 ;
+    AREA_GUARD Float ;
+    EST_ACTUAL Char (10) Index 7 ;
+    TIPO Char (10) ;
+    TENEDOR Char (35) ;
+    MUNICIPIO Char (25) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "d3691d28-8d0c-42f3-922d-8f668f8c1389"
+end_metadata
