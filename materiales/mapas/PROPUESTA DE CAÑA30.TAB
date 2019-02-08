@@ -1,0 +1,32 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  File "propuesta de caña30.accdb"
+  Type ACCESS TABLE "PROPUESTA_DE_CAÑA30" Charset "WindowsLatin1"
+  Fields 19
+    ID Char (12) ;
+    Cod_Empresa Char (3) ;
+    Unidad Char (2) ;
+    Unidad_P Char (2) ;
+    Lote Char (2) ;
+    Bloque Char (5) ;
+    Bloque_P Char (5) Index 1 ;
+    Campo Char (5) ;
+    Campo_P Char (5) ;
+    Area Float ;
+    Area_guard Float ;
+    Est_actual Char (30) ;
+    Fecha Date ;
+    Uso_actual Char (10) ;
+    Uso_propue Char (10) ;
+    Tenedor Char (40) ;
+    Productor Char (30) ;
+    Municipio Char (30) ;
+    CODIGO Char (17) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "650c5eac-a29a-4fe0-bdae-14599ca0bcf2"
+end_metadata
