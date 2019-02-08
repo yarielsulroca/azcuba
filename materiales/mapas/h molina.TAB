@@ -1,0 +1,30 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  File "h molina.accdb"
+  Type ACCESS TABLE "h_molina" Charset "WindowsLatin1"
+  Fields 17
+    CODIGO Char (17) ;
+    UEB Char (3) ;
+    UNIDAD Char (2) Index 1 ;
+    UNIDAD_P Char (2) ;
+    LOTE Char (2) ;
+    LOTE_P Char (2) ;
+    BLOQUE Char (5) ;
+    BLOQUE_P Char (4) ;
+    CAMPO Char (5) ;
+    CAMPO_P Char (2) ;
+    AREA_DEC Float ;
+    ÁREA Float ;
+    ÁREA_GUARD Float ;
+    EST_ACTUAL Char (10) ;
+    TIPO Char (10) ;
+    TENEDOR Char (40) ;
+    MUNICIPIO Char (30) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "8a743586-88b1-4aef-9656-4ea50f7b442e"
+end_metadata
